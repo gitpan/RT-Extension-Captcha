@@ -1,0 +1,52 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 2fec72b9b63752e10dff05eaf77234fa86a6b194 CHANGES
+SHA1 c3b405c53b6fccc4e9ad61d97a7ff7a3e78942a7 MANIFEST
+SHA1 c80a224609165531b43416774e8c3eed36119142 META.yml
+SHA1 df9cb2956b3370e6d76b1e239b132a8e2e51a667 Makefile.PL
+SHA1 1362c960c74d3152e4b0ead429c140081ac362a6 README
+SHA1 df488b7d1c400bf0e5f6c84bc77d3dc3a82e5511 etc/Captcha_Config.pm
+SHA1 0c5d03129d1519d01fad139454ea55b4a811b3d7 html/Callbacks/RT-Extension-Captcha/Ticket/Create.html/BeforeCreate
+SHA1 dfc6a850f12e4283755dceddd9c429a6e50213ab html/Callbacks/RT-Extension-Captcha/Ticket/Create.html/FormStart
+SHA1 a3a0a6fef24ccb6cd48a516e5459a3b873e3a077 html/Callbacks/RT-Extension-Captcha/Ticket/Display.html/Initial
+SHA1 f69a18b23cb0cf6f3090d0b6f639d07613bf9194 html/Callbacks/RT-Extension-Captcha/Ticket/Update.html/FormStart
+SHA1 18b17361dd818fc4967d331ddee0f4a1df21b324 html/Callbacks/RT-Extension-Captcha/Ticket/Update.html/Initial
+SHA1 56c9b2240367fbc57c1c9c6bee8c73f53750e15f html/Callbacks/RT-Extension-Captcha/index.html/Initial
+SHA1 562ab623480595b95089f11cbac299987194ea30 html/Elements/Captcha
+SHA1 854a6ef1b57f98c2324059e16aa5e6482051b5d6 html/Helpers/Captcha
+SHA1 9b5001bfa9cf8607b3b3935284d9253e0391c9f1 inc/Module/Install.pm
+SHA1 cab0e564f9bdf658535f683aa197157e06d0dcea inc/Module/Install/Base.pm
+SHA1 a1559b5b3b40f68efbbd256f4fef85970891b3ae inc/Module/Install/Can.pm
+SHA1 f15c1ba85f6d52e70c48c64bf0752c90a4ad66f9 inc/Module/Install/Fetch.pm
+SHA1 d44d96acd20793306dd201030c688e2a7d3083ee inc/Module/Install/Include.pm
+SHA1 eb48df8bafd07c6a862126d9b274df42b4395742 inc/Module/Install/Makefile.pm
+SHA1 95c73873c6c3cb7024614c225c53863e1e90c134 inc/Module/Install/Metadata.pm
+SHA1 6e010ba20a9d0ae23d8d0ff516868c1e571c2d44 inc/Module/Install/RTx.pm
+SHA1 3fdf4c0cffdb1a2e23e5cd26bf95be553f1f9590 inc/Module/Install/RTx/Runtime.pm
+SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
+SHA1 f8b2ae3386f6ba26c33408968a953d450842eade inc/Module/Install/Win32.pm
+SHA1 f302bc703d76299cff243e5b44cecd61aac27b76 inc/Module/Install/WriteAll.pm
+SHA1 4e09b598c2626e08cec2bed5e981492fa9e90967 inc/YAML/Tiny.pm
+SHA1 034d0f3a7401dae4be3eee279258181f51a4ad81 inc/unicore/Name.pm
+SHA1 000511ea432f730605e3b23c0fbcdd9ca646cec8 lib/RT/Extension/Captcha.pm
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iEYEARECAAYFAlSPYNEACgkQMflWJZZAbqADbQCfayoqNtseT2e63F1S4Tj6i9E/
+6vUAn2MS5iuEtbtLKVRvNPnsZ6ac8fPh
+=KEGv
+-----END PGP SIGNATURE-----
